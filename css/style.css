@@ -7,6 +7,7 @@ body {
     height: 100%;
 }
 
+/* nav styling */
 .nav {
     display: flex;
     justify-content: space-around;
@@ -25,6 +26,8 @@ a {
     text-decoration: none;
 }
 
+
+/* header styling */
 .header {
     display: flex;
     justify-content: center;
@@ -45,15 +48,6 @@ a {
     margin-right: 185px;
 }
 
-button {
-    background-color: dodgerblue;
-    color: white;
-    padding: 10px 25px;
-    border-radius: 20px;
-    border-style: none;
-    font-weight: bold;
-}
-
 /** .header,
 .main,
 .quote,
@@ -63,6 +57,7 @@ button {
 
 **/
 
+/* content styling */
 .content {
     padding: 25px;
     text-align: center;
@@ -90,6 +85,19 @@ button {
     width: 150px;
 }
 
+/* quote styling */
+
+/* general styling */
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
+}
+
+/* footer styling */
 .footer {
     text-align: center;
     color: white;
