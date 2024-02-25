@@ -10,6 +10,8 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    background-color: #1F2937;
+    color: white;
 }
 
 ul {
@@ -20,6 +22,22 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+.header {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: white;
+}
+
+button {
+    background-color: dodgerblue;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 20px;
+    border-style: none;
+    font-weight: bold;
 }
 
 .footer {
