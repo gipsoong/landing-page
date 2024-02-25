@@ -111,6 +111,25 @@ a {
     font-weight: bolder;
 }
 
+/* cta styling */
+.cta {
+    display: flex;
+    justify-content: center;
+}
+
+.cta-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    color: white;
+    margin: 75px;
+    padding: 35px;
+    width: 70%;
+    border-radius: 10px;
+}
+
+
 /* general styling */
 button {
     background-color: dodgerblue;
