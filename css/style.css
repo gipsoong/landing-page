@@ -4,6 +4,7 @@ body {
     flex-direction: column;
     justify-content: space-between;
     margin: 0;
+    height: 100%;
 }
 
 .nav {
@@ -31,6 +32,18 @@ a {
     color: white;
 }
 
+.header p {
+    flex-wrap: wrap;
+}
+
+.header div {
+    margin-left: 185px;
+}
+
+.header img {
+    margin-right: 185px;
+}
+
 button {
     background-color: dodgerblue;
     color: white;
@@ -39,6 +52,15 @@ button {
     border-style: none;
     font-weight: bold;
 }
+
+/** .header,
+.main,
+.quote,
+.cta {
+    flex: 1;
+}
+
+**/
 
 .footer {
     text-align: center;
