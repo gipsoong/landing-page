@@ -162,6 +162,11 @@ button {
     font-weight: bold;
 }
 
+button:hover {
+    color: #3882F6;
+    background-color: white;
+}
+
 /* footer styling */
 .footer {
     text-align: center;
