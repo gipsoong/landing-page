@@ -90,16 +90,13 @@ a:hover {
 .card {
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    border: 1px dotted lightgrey;
-    height: 250px;
-    width: 150px;
+    justify-content: space-evenly;
+    height: 325px;
+    width: 225px;
 }
 
-.icon-container {
-    background-color: #1F2937;
-    height: 75px;
-    width: 150px;
+img {
+    width: 100%;
 }
 
 /* quote styling */
