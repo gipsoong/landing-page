@@ -36,16 +36,26 @@ a {
     padding: 75px 0px;
 }
 
+.header h1 {
+    font-size: 40px;
+    margin: 0;
+}
+
 .header p {
     flex-wrap: wrap;
 }
 
-.header div {
-    margin-left: 185px;
+
+#header-image {
+    width: 450px;
+    height: auto;
 }
 
-.header img {
-    margin-right: 185px;
+.header-content {
+    display: flex;
+    width: 65%;
+    justify-content: center;
+    gap: 35px;
 }
 
 /** .header,
